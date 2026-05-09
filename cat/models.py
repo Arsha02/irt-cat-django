@@ -7,8 +7,3 @@ class Item(models.Model):
     a = models.FloatField()
     b = models.FloatField()
     c = models.FloatField()
-
-
-class Response(models.Model):
-    student = models.CharField(max_length=100)
-    responses = models.JSONField()
