@@ -1,65 +1,62 @@
-from django.http import HttpResponse
-from django.shortcuts import redirect
-from django.views.decorators.csrf import csrf_exempt
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from rest_framework import status
 from .models import Item
-from .engine import next_item, mle, se
+from .serializers import ItemSerializer
+from .engine import next_item, mle
 
 
-@csrf_exempt
-def test(request):
+@api_view(['GET', 'POST'])
+def test_api(request):
     s = request.session
-    # Initialize the test if it's new
+
+    # 1. Initialize Assessment Session
     if 'res' not in s:
-        s['res'], s['theta'], s['count'], s['log'] = {}, 0.0, 0, ""
+        s['res'], s['theta'], s['count'] = {}, 0.0, 0
+        s.modified = True
 
-    # Load questions from Database
+    # 2. Map Database to Engine Bank Format
     items = Item.objects.all()
-    BANK = {i.item_id.lower(): {'a': i.a, 'b': i.b, 'c': i.c} for i in items}
+    BANK = {i.item_id: {'a': i.a, 'b': i.b, 'c': i.c} for i in items}
 
-    # Handle the user's answer
+    # 3. Handle Answer Submission (POST)
     if request.method == "POST":
-        q_id = request.POST.get('q_id', '').lower()
-        ans = request.POST.get('ans')
+        q_id = request.data.get('q_id')
+        ans = request.data.get('ans')  # Expects 0 or 1
 
-        if ans in ['0', '1'] and q_id in BANK:
-            if q_id not in s['res']:
-                s['res'][q_id] = int(ans)
-                s['theta'] = mle(s['res'], BANK)
-                curr_se = se(s['theta'], s['res'].keys(), BANK)
-                s['count'] += 1
+        if q_id in BANK and ans in [0, 1, "0", "1"]:
+            s['res'][q_id] = int(ans)
+            s['theta'] = mle(s['res'], BANK)  # Update Ability Score
+            s['count'] += 1
+            s.modified = True
+            return Response({"message": "Answer saved", "progress": s['count']})
+        return Response({"error": "Invalid Input"}, status=status.HTTP_400_BAD_REQUEST)
 
-                # Add to the history log
-                s['log'] += (f"ID: {q_id.upper()} | Ans: {ans} | Theta: {round(s['theta'], 2)}\n")
-                s.modified = True
-
-    # End the test after 10 questions
+    # 4. Finish Assessment after 10 questions
     if s['count'] >= 10:
-        return HttpResponse(f"""
-            <body style="font-family:monospace; background:#000; color:#fff;">
-                <pre>{s['log']}</pre>
-                <p>TEST FINISHED. Final Theta: {round(s['theta'], 2)}</p>
-                <a href="/reset/" style="color:#fff;">Restart Test</a>
-            </body>
-        """)
+        return Response({
+            "status": "completed",
+            "final_ability_score": s['theta'],
+            "total_items": s['count']
+        })
 
-    # Get the next question
-    next_q_id = next_item(s['theta'], BANK, list(s['res'].keys()))
-    q_obj = Item.objects.filter(item_id__iexact=next_q_id).first()
+    # 5. Fetch Next Adaptive Question (GET)
+    next_id = next_item(s['theta'], BANK, list(s['res'].keys()))
+    if not next_id:
+        return Response({"error": "Bank exhausted"}, status=status.HTTP_404_NOT_FOUND)
 
-    # Display the current screen
-    return HttpResponse(f"""
-        <body style="font-family:monospace; background:#000; color:#fff; padding:20px;">
-            <pre>{s['log']}</pre>
-            <p>Question: {q_obj.question_text}</p>
-            <form method="POST">
-                <input type="hidden" name="q_id" value="{next_q_id}">
-                Answer (1/0): <input type="text" name="ans" autofocus maxlength="1" 
-                                     style="background:#000; color:#fff; border:none; border-bottom:1px solid #fff;">
-            </form>
-        </body>
-    """)
+    item_obj = Item.objects.get(item_id=next_id)
+    serializer = ItemSerializer(item_obj)  # Use serializer for clean JSON
+
+    return Response({
+        "status": "ongoing",
+        "progress": s['count'],
+        # Returns {'item_id': 'q45', 'question_text': '...'}
+        "question": serializer.data
+    })
 
 
+@api_view(['GET'])
 def reset_test(request):
     request.session.flush()
-    return redirect('/test/')
+    return Response({"message": "Assessment Reset Successfully"})
