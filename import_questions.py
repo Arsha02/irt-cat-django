@@ -1,21 +1,20 @@
 import json
 from cat.models import Item
 
-# open json
-with open("questions.json", "r") as f:
+with open('question_bank_100.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
-# clear old items (optional)
-Item.objects.all().delete()
-
-# import
-for item_id, values in data.items():
-    Item.objects.create(
-        item_id=item_id.upper(),   # q16 -> Q16
-        a=values["a"],
-        b=values["b"],
-        c=values["c"]
+for x in data:
+    Item.objects.update_or_create(
+        item_id=x['id'],
+        defaults={
+            'question_text': x['question'],
+            'options': x['options'],
+            'correct_option': x['correct'],
+            'a': x['discrimination_a'],
+            'b': x['difficulty_b'],
+            'c': x['guessing_c']
+        }
     )
 
-print("Questions imported successfully")
-
+print("Successfully imported all 100 questions into the DB!")

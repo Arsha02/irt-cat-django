@@ -1,0 +1,1502 @@
+[
+    {
+        "id": "Q01",
+        "section": "Verbal Reasoning",
+        "question": "Doctor : Hospital :: Teacher : ?",
+        "options": {
+            "A": "Office",
+            "B": "School",
+            "C": "Library",
+            "D": "Laboratory"
+        },
+        "correct": "B",
+        "difficulty_b": -2.5,
+        "discrimination_a": 0.8,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q02",
+        "section": "Verbal Reasoning",
+        "question": "Pen : Writer :: Brush : ?",
+        "options": {
+            "A": "Canvas",
+            "B": "Paint",
+            "C": "Artist",
+            "D": "Color"
+        },
+        "correct": "C",
+        "difficulty_b": -2.0,
+        "discrimination_a": 0.9,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q03",
+        "section": "Verbal Reasoning",
+        "question": "Engineer : Blueprint :: Surgeon : ?",
+        "options": {
+            "A": "Hospital",
+            "B": "Medicine",
+            "C": "Operation Plan",
+            "D": "Scalpel"
+        },
+        "correct": "C",
+        "difficulty_b": -1.5,
+        "discrimination_a": 1.1,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q04",
+        "section": "Verbal Reasoning",
+        "question": "Data : Analyst :: Code : ?",
+        "options": {
+            "A": "Computer",
+            "B": "Developer",
+            "C": "Algorithm",
+            "D": "Software"
+        },
+        "correct": "B",
+        "difficulty_b": -1.0,
+        "discrimination_a": 1.2,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q05",
+        "section": "Verbal Reasoning",
+        "question": "Architect : Structure :: Composer : ?",
+        "options": {
+            "A": "Instrument",
+            "B": "Symphony",
+            "C": "Note",
+            "D": "Rhythm"
+        },
+        "correct": "B",
+        "difficulty_b": -0.5,
+        "discrimination_a": 1.3,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q06",
+        "section": "Verbal Reasoning",
+        "question": "Diagnosis : Physician :: Verdict : ?",
+        "options": {
+            "A": "Police",
+            "B": "Jury",
+            "C": "Judge",
+            "D": "Lawyer"
+        },
+        "correct": "C",
+        "difficulty_b": 0.0,
+        "discrimination_a": 1.4,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q07",
+        "section": "Verbal Reasoning",
+        "question": "Empirical : Evidence :: Theoretical : ?",
+        "options": {
+            "A": "Proof",
+            "B": "Assumption",
+            "C": "Framework",
+            "D": "Experiment"
+        },
+        "correct": "C",
+        "difficulty_b": 0.5,
+        "discrimination_a": 1.5,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q08",
+        "section": "Verbal Reasoning",
+        "question": "Litigation : Lawyer :: Pedagogy : ?",
+        "options": {
+            "A": "Student",
+            "B": "Educator",
+            "C": "Curriculum",
+            "D": "School"
+        },
+        "correct": "B",
+        "difficulty_b": 1.0,
+        "discrimination_a": 1.6,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q09",
+        "section": "Verbal Reasoning",
+        "question": "Pathology : Disease :: Seismology : ?",
+        "options": {
+            "A": "Weather",
+            "B": "Earthquakes",
+            "C": "Oceans",
+            "D": "Stars"
+        },
+        "correct": "B",
+        "difficulty_b": 1.5,
+        "discrimination_a": 1.8,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q10",
+        "section": "Verbal Reasoning",
+        "question": "Epistemology : Knowledge :: Ontology : ?",
+        "options": {
+            "A": "Ethics",
+            "B": "Logic",
+            "C": "Being",
+            "D": "Beauty"
+        },
+        "correct": "C",
+        "difficulty_b": 2.0,
+        "discrimination_a": 2.0,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q11",
+        "section": "Vocabulary",
+        "question": "Which word means 'a person's natural ability or skill'?",
+        "options": {
+            "A": "Aptitude",
+            "B": "Attitude",
+            "C": "Altitude",
+            "D": "Attribute"
+        },
+        "correct": "A",
+        "difficulty_b": -2.5,
+        "discrimination_a": 0.8,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q12",
+        "section": "Vocabulary",
+        "question": "What is the synonym of 'Profession'?",
+        "options": {
+            "A": "Hobby",
+            "B": "Occupation",
+            "C": "Passion",
+            "D": "Interest"
+        },
+        "correct": "B",
+        "difficulty_b": -2.0,
+        "discrimination_a": 0.9,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q13",
+        "section": "Vocabulary",
+        "question": "Which word best describes 'the ability to recover quickly from difficulties'?",
+        "options": {
+            "A": "Persistence",
+            "B": "Resilience",
+            "C": "Confidence",
+            "D": "Ambition"
+        },
+        "correct": "B",
+        "difficulty_b": -1.5,
+        "discrimination_a": 1.1,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q14",
+        "section": "Vocabulary",
+        "question": "What does 'Entrepreneurship' mean?",
+        "options": {
+            "A": "Working for a company",
+            "B": "Managing a team",
+            "C": "Starting and running a business",
+            "D": "Investing in stocks"
+        },
+        "correct": "C",
+        "difficulty_b": -1.0,
+        "discrimination_a": 1.2,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q15",
+        "section": "Vocabulary",
+        "question": "Which word means 'working together to achieve a goal'?",
+        "options": {
+            "A": "Competition",
+            "B": "Collaboration",
+            "C": "Confrontation",
+            "D": "Consolidation"
+        },
+        "correct": "B",
+        "difficulty_b": -0.5,
+        "discrimination_a": 1.3,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q16",
+        "section": "Vocabulary",
+        "question": "What is the antonym of 'Obsolete'?",
+        "options": {
+            "A": "Ancient",
+            "B": "Outdated",
+            "C": "Current",
+            "D": "Rare"
+        },
+        "correct": "C",
+        "difficulty_b": 0.0,
+        "discrimination_a": 1.4,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q17",
+        "section": "Vocabulary",
+        "question": "Which word means 'the ability to understand and share feelings of others'?",
+        "options": {
+            "A": "Sympathy",
+            "B": "Apathy",
+            "C": "Empathy",
+            "D": "Telepathy"
+        },
+        "correct": "C",
+        "difficulty_b": 0.5,
+        "discrimination_a": 1.5,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q18",
+        "section": "Vocabulary",
+        "question": "What does 'Meritocracy' mean?",
+        "options": {
+            "A": "Rule by the wealthy",
+            "B": "System where talent determines success",
+            "C": "Rule by elected officials",
+            "D": "Equal distribution of resources"
+        },
+        "correct": "B",
+        "difficulty_b": 1.0,
+        "discrimination_a": 1.6,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q19",
+        "section": "Vocabulary",
+        "question": "Which word means 'the quality of being honest and having strong moral principles'?",
+        "options": {
+            "A": "Dignity",
+            "B": "Integrity",
+            "C": "Humility",
+            "D": "Sincerity"
+        },
+        "correct": "B",
+        "difficulty_b": 1.5,
+        "discrimination_a": 1.8,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q20",
+        "section": "Vocabulary",
+        "question": "What does 'Interdisciplinary' mean?",
+        "options": {
+            "A": "Within a single field",
+            "B": "Between departments",
+            "C": "Combining multiple fields of study",
+            "D": "Above academic level"
+        },
+        "correct": "C",
+        "difficulty_b": 2.0,
+        "discrimination_a": 2.0,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q21",
+        "section": "Comprehension",
+        "question": "Read: 'Riya chose medicine not for money but to serve. She works in rural areas treating patients who cannot afford care.' What drives Riya?",
+        "options": {
+            "A": "Fame",
+            "B": "Wealth",
+            "C": "Service",
+            "D": "Promotion"
+        },
+        "correct": "C",
+        "difficulty_b": -2.0,
+        "discrimination_a": 0.8,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q22",
+        "section": "Comprehension",
+        "question": "Read: 'Arjun failed his engineering entrance twice. Instead of giving up, he enrolled in a diploma course and is now a successful technician.' What quality does Arjun show?",
+        "options": {
+            "A": "Arrogance",
+            "B": "Resilience",
+            "C": "Laziness",
+            "D": "Luck"
+        },
+        "correct": "B",
+        "difficulty_b": -1.5,
+        "discrimination_a": 1.0,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q23",
+        "section": "Comprehension",
+        "question": "Read: 'The company promoted employees based on performance, not seniority. Those who worked hard rose quickly.' What system does this describe?",
+        "options": {
+            "A": "Nepotism",
+            "B": "Bureaucracy",
+            "C": "Meritocracy",
+            "D": "Democracy"
+        },
+        "correct": "C",
+        "difficulty_b": -1.0,
+        "discrimination_a": 1.2,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q24",
+        "section": "Comprehension",
+        "question": "Read: 'Priya noticed her team was demotivated. She organised meetings, listened to concerns and redistributed tasks fairly.' What role is Priya playing?",
+        "options": {
+            "A": "Accountant",
+            "B": "Leader",
+            "C": "Trainee",
+            "D": "Observer"
+        },
+        "correct": "B",
+        "difficulty_b": -0.5,
+        "discrimination_a": 1.3,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q25",
+        "section": "Comprehension",
+        "question": "Read: 'Automation replaced repetitive jobs. Workers who adapted by learning new skills retained employment while others struggled.' What is the passage's main message?",
+        "options": {
+            "A": "Machines are better than humans",
+            "B": "Jobs are disappearing",
+            "C": "Adaptability is key to career survival",
+            "D": "Learning is unnecessary"
+        },
+        "correct": "C",
+        "difficulty_b": 0.0,
+        "discrimination_a": 1.4,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q26",
+        "section": "Comprehension",
+        "question": "Read: 'Despite a law degree, Kavya pursued data science. She believed interdisciplinary skills would give her an edge in legal technology.' What can be inferred?",
+        "options": {
+            "A": "Law is an inferior career",
+            "B": "Data science replaces law",
+            "C": "Combining fields creates career advantage",
+            "D": "Kavya regrets her law degree"
+        },
+        "correct": "C",
+        "difficulty_b": 0.5,
+        "discrimination_a": 1.5,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q27",
+        "section": "Comprehension",
+        "question": "Read: 'The surgeon's precision was not innate \u2014 it was the result of ten thousand hours of deliberate practice.' What does this suggest about expertise?",
+        "options": {
+            "A": "Talent is everything",
+            "B": "Expertise requires sustained effort",
+            "C": "Surgeons are born not made",
+            "D": "Practice is overrated"
+        },
+        "correct": "B",
+        "difficulty_b": 1.0,
+        "discrimination_a": 1.6,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q28",
+        "section": "Comprehension",
+        "question": "Read: 'Organisations that foster psychological safety \u2014 where employees voice ideas without fear \u2014 outperform those that do not.' What is the key variable?",
+        "options": {
+            "A": "Salary structure",
+            "B": "Office location",
+            "C": "Psychological safety",
+            "D": "Work hours"
+        },
+        "correct": "C",
+        "difficulty_b": 1.5,
+        "discrimination_a": 1.8,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q29",
+        "section": "Comprehension",
+        "question": "Read: 'Cognitive flexibility \u2014 the ability to shift thinking between concepts \u2014 is increasingly valued over narrow specialisation in knowledge economies.' What shift does this imply?",
+        "options": {
+            "A": "Specialists are no longer needed",
+            "B": "Flexible thinking is gaining career value",
+            "C": "Knowledge economies are declining",
+            "D": "Education is irrelevant"
+        },
+        "correct": "B",
+        "difficulty_b": 2.0,
+        "discrimination_a": 2.0,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q30",
+        "section": "Comprehension",
+        "question": "Read: 'Epistemic humility \u2014 acknowledging the limits of one's knowledge \u2014 is a trait shared by the most effective leaders and scientists.' What does this passage argue?",
+        "options": {
+            "A": "Leaders must know everything",
+            "B": "Scientists are better than leaders",
+            "C": "Recognising knowledge limits is a strength",
+            "D": "Humility leads to failure"
+        },
+        "correct": "C",
+        "difficulty_b": 2.5,
+        "discrimination_a": 2.2,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q31",
+        "section": "Grammar",
+        "question": "Choose the correct sentence:",
+        "options": {
+            "A": "He don't know the answer",
+            "B": "He doesn't knows the answer",
+            "C": "He doesn't know the answer",
+            "D": "He not know the answer"
+        },
+        "correct": "C",
+        "difficulty_b": -2.0,
+        "discrimination_a": 0.8,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q32",
+        "section": "Grammar",
+        "question": "Fill in the blank: 'She ___ working here since 2019.'",
+        "options": {
+            "A": "is",
+            "B": "was",
+            "C": "has been",
+            "D": "had"
+        },
+        "correct": "C",
+        "difficulty_b": -1.5,
+        "discrimination_a": 1.0,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q33",
+        "section": "Grammar",
+        "question": "Choose the correct form: 'The team ___ their decision yesterday.'",
+        "options": {
+            "A": "make",
+            "B": "makes",
+            "C": "made",
+            "D": "making"
+        },
+        "correct": "C",
+        "difficulty_b": -1.0,
+        "discrimination_a": 1.2,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q34",
+        "section": "Grammar",
+        "question": "Fill in the blank: 'If I ___ you, I would apply for that job.'",
+        "options": {
+            "A": "am",
+            "B": "was",
+            "C": "were",
+            "D": "be"
+        },
+        "correct": "C",
+        "difficulty_b": -0.5,
+        "discrimination_a": 1.3,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q35",
+        "section": "Grammar",
+        "question": "Choose the correctly structured sentence:",
+        "options": {
+            "A": "Despite of the rain, he came",
+            "B": "Despite the rain, he came",
+            "C": "Despite for the rain, he came",
+            "D": "Despite with rain, he came"
+        },
+        "correct": "B",
+        "difficulty_b": 0.0,
+        "discrimination_a": 1.4,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q36",
+        "section": "Grammar",
+        "question": "Fill in: 'Hardly ___ she entered when the meeting began.'",
+        "options": {
+            "A": "had",
+            "B": "has",
+            "C": "did",
+            "D": "was"
+        },
+        "correct": "A",
+        "difficulty_b": 0.5,
+        "discrimination_a": 1.5,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q37",
+        "section": "Grammar",
+        "question": "Choose the correct passive form of 'The manager approved the proposal':",
+        "options": {
+            "A": "The proposal approved by the manager",
+            "B": "The proposal was approved by the manager",
+            "C": "The proposal is approving by the manager",
+            "D": "The proposal has approve by the manager"
+        },
+        "correct": "B",
+        "difficulty_b": 1.0,
+        "discrimination_a": 1.6,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q38",
+        "section": "Grammar",
+        "question": "Fill in: 'The report, along with the annexures, ___ submitted yesterday.'",
+        "options": {
+            "A": "were",
+            "B": "are",
+            "C": "was",
+            "D": "have been"
+        },
+        "correct": "C",
+        "difficulty_b": 1.5,
+        "discrimination_a": 1.8,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q39",
+        "section": "Grammar",
+        "question": "Choose the correct sentence:",
+        "options": {
+            "A": "Neither the CEO nor the directors was present",
+            "B": "Neither the CEO nor the directors were present",
+            "C": "Neither the CEO nor the directors are present",
+            "D": "Neither the CEO nor the directors is present"
+        },
+        "correct": "B",
+        "difficulty_b": 2.0,
+        "discrimination_a": 2.0,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q40",
+        "section": "Grammar",
+        "question": "Fill in: 'It is imperative that every candidate ___ the eligibility criteria before applying.'",
+        "options": {
+            "A": "meets",
+            "B": "meet",
+            "C": "meeting",
+            "D": "met"
+        },
+        "correct": "B",
+        "difficulty_b": 2.5,
+        "discrimination_a": 2.2,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q41",
+        "section": "Critical Thinking",
+        "question": "A fresh graduate has two offers: a high paying job with no growth vs a low paying job with mentorship and learning. Which is better for long term career?",
+        "options": {
+            "A": "High paying job always",
+            "B": "Low paying job with growth",
+            "C": "Both are equal",
+            "D": "Neither matters"
+        },
+        "correct": "B",
+        "difficulty_b": -1.5,
+        "discrimination_a": 1.0,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q42",
+        "section": "Critical Thinking",
+        "question": "Your colleague takes credit for your work in a meeting. The best professional response is:",
+        "options": {
+            "A": "Confront loudly in the meeting",
+            "B": "Ignore it completely",
+            "C": "Speak to your manager privately with evidence",
+            "D": "Quit the job"
+        },
+        "correct": "C",
+        "difficulty_b": -1.0,
+        "discrimination_a": 1.2,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q43",
+        "section": "Critical Thinking",
+        "question": "A team project is failing due to unclear goals. As a member what should you do first?",
+        "options": {
+            "A": "Blame the leader",
+            "B": "Leave the team",
+            "C": "Clarify objectives with the team",
+            "D": "Work independently"
+        },
+        "correct": "C",
+        "difficulty_b": -0.5,
+        "discrimination_a": 1.3,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q44",
+        "section": "Critical Thinking",
+        "question": "You are offered a promotion that requires relocating. You have family obligations. What is the most balanced approach?",
+        "options": {
+            "A": "Reject without discussion",
+            "B": "Accept immediately",
+            "C": "Discuss options with family and employer",
+            "D": "Resign instead"
+        },
+        "correct": "C",
+        "difficulty_b": 0.0,
+        "discrimination_a": 1.4,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q45",
+        "section": "Critical Thinking",
+        "question": "Your industry is being disrupted by AI. The best career strategy is:",
+        "options": {
+            "A": "Ignore the change",
+            "B": "Upskill in AI related areas",
+            "C": "Change careers immediately",
+            "D": "Retire early"
+        },
+        "correct": "B",
+        "difficulty_b": 0.5,
+        "discrimination_a": 1.5,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q46",
+        "section": "Critical Thinking",
+        "question": "A researcher finds data contradicting their hypothesis. The correct action is:",
+        "options": {
+            "A": "Discard the contradicting data",
+            "B": "Revise the hypothesis based on evidence",
+            "C": "Publish without mentioning it",
+            "D": "Stop the research"
+        },
+        "correct": "B",
+        "difficulty_b": 1.0,
+        "discrimination_a": 1.6,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q47",
+        "section": "Critical Thinking",
+        "question": "An ethical dilemma arises when your company asks you to present misleading data to clients. You should:",
+        "options": {
+            "A": "Comply to keep your job",
+            "B": "Present it without question",
+            "C": "Refuse and escalate to ethics committee",
+            "D": "Leak it to media immediately"
+        },
+        "correct": "C",
+        "difficulty_b": 1.5,
+        "discrimination_a": 1.8,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q48",
+        "section": "Critical Thinking",
+        "question": "Two equally qualified candidates apply for a role. One has diverse cross functional experience, other has deep specialisation. For a leadership role, who is preferred?",
+        "options": {
+            "A": "Specialist always",
+            "B": "Generalist always",
+            "C": "Depends on role requirements",
+            "D": "Neither is suitable"
+        },
+        "correct": "C",
+        "difficulty_b": 2.0,
+        "discrimination_a": 2.0,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q49",
+        "section": "Critical Thinking",
+        "question": "A startup founder must choose between scaling fast with investor money or growing organically. The decision should primarily depend on:",
+        "options": {
+            "A": "What investors want",
+            "B": "What competitors do",
+            "C": "Business model sustainability and market conditions",
+            "D": "Founder's personal preference"
+        },
+        "correct": "C",
+        "difficulty_b": 2.0,
+        "discrimination_a": 2.0,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q50",
+        "section": "Critical Thinking",
+        "question": "In a knowledge economy, which combination of skills creates the highest career leverage?",
+        "options": {
+            "A": "Technical depth only",
+            "B": "Communication only",
+            "C": "Technical expertise combined with strategic thinking and communication",
+            "D": "Seniority and experience alone"
+        },
+        "correct": "C",
+        "difficulty_b": 2.5,
+        "discrimination_a": 2.2,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q51",
+        "section": "Verbal Reasoning",
+        "question": "Book : Library :: Painting : ?",
+        "options": {
+            "A": "Artist",
+            "B": "Canvas",
+            "C": "Gallery",
+            "D": "Museum"
+        },
+        "correct": "C",
+        "difficulty_b": -2.5,
+        "discrimination_a": 0.8,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q52",
+        "section": "Verbal Reasoning",
+        "question": "Pilot : Cockpit :: Captain : ?",
+        "options": {
+            "A": "Ship",
+            "B": "Bridge",
+            "C": "Deck",
+            "D": "Cabin"
+        },
+        "correct": "B",
+        "difficulty_b": -2.0,
+        "discrimination_a": 0.9,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q53",
+        "section": "Verbal Reasoning",
+        "question": "Nurse : Patient :: Teacher : ?",
+        "options": {
+            "A": "School",
+            "B": "Lesson",
+            "C": "Student",
+            "D": "Book"
+        },
+        "correct": "C",
+        "difficulty_b": -1.5,
+        "discrimination_a": 1.1,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q54",
+        "section": "Verbal Reasoning",
+        "question": "Lawyer : Courtroom :: Scientist : ?",
+        "options": {
+            "A": "Library",
+            "B": "Laboratory",
+            "C": "Office",
+            "D": "Classroom"
+        },
+        "correct": "B",
+        "difficulty_b": -1.0,
+        "discrimination_a": 1.2,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q55",
+        "section": "Verbal Reasoning",
+        "question": "Strategy : Chess :: Diagnosis : ?",
+        "options": {
+            "A": "Treatment",
+            "B": "Medicine",
+            "C": "Hospital",
+            "D": "Doctor"
+        },
+        "correct": "A",
+        "difficulty_b": -0.5,
+        "discrimination_a": 1.3,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q56",
+        "section": "Verbal Reasoning",
+        "question": "Cartography : Maps :: Lexicography : ?",
+        "options": {
+            "A": "Grammar",
+            "B": "Dictionaries",
+            "C": "Novels",
+            "D": "Literature"
+        },
+        "correct": "B",
+        "difficulty_b": 0.0,
+        "discrimination_a": 1.4,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q57",
+        "section": "Verbal Reasoning",
+        "question": "Hypothesis : Research :: Blueprint : ?",
+        "options": {
+            "A": "Architect",
+            "B": "Drawing",
+            "C": "Construction",
+            "D": "Design"
+        },
+        "correct": "C",
+        "difficulty_b": 0.5,
+        "discrimination_a": 1.5,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q58",
+        "section": "Verbal Reasoning",
+        "question": "Jurisprudence : Law :: Hermeneutics : ?",
+        "options": {
+            "A": "History",
+            "B": "Interpretation",
+            "C": "Philosophy",
+            "D": "Language"
+        },
+        "correct": "B",
+        "difficulty_b": 1.0,
+        "discrimination_a": 1.6,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q59",
+        "section": "Verbal Reasoning",
+        "question": "Taxonomy : Classification :: Etymology : ?",
+        "options": {
+            "A": "Origin of words",
+            "B": "Study of insects",
+            "C": "Grammar rules",
+            "D": "Pronunciation"
+        },
+        "correct": "A",
+        "difficulty_b": 1.5,
+        "discrimination_a": 1.8,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q60",
+        "section": "Verbal Reasoning",
+        "question": "Phenomenology : Experience :: Axiology : ?",
+        "options": {
+            "A": "Logic",
+            "B": "Values",
+            "C": "Perception",
+            "D": "Reality"
+        },
+        "correct": "B",
+        "difficulty_b": 2.0,
+        "discrimination_a": 2.0,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q61",
+        "section": "Vocabulary",
+        "question": "Which word means 'to officially end or cancel something'?",
+        "options": {
+            "A": "Abolish",
+            "B": "Establish",
+            "C": "Maintain",
+            "D": "Approve"
+        },
+        "correct": "A",
+        "difficulty_b": -2.5,
+        "discrimination_a": 0.8,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q62",
+        "section": "Vocabulary",
+        "question": "What is the synonym of 'Innovative'?",
+        "options": {
+            "A": "Traditional",
+            "B": "Creative",
+            "C": "Ordinary",
+            "D": "Rigid"
+        },
+        "correct": "B",
+        "difficulty_b": -2.0,
+        "discrimination_a": 0.9,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q63",
+        "section": "Vocabulary",
+        "question": "Which word means 'the process of settling a dispute outside court'?",
+        "options": {
+            "A": "Litigation",
+            "B": "Arbitration",
+            "C": "Prosecution",
+            "D": "Legislation"
+        },
+        "correct": "B",
+        "difficulty_b": -1.5,
+        "discrimination_a": 1.1,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q64",
+        "section": "Vocabulary",
+        "question": "What does 'Versatile' mean?",
+        "options": {
+            "A": "Rigid and fixed",
+            "B": "Able to adapt to many tasks",
+            "C": "Highly specialised",
+            "D": "Slow to change"
+        },
+        "correct": "B",
+        "difficulty_b": -1.0,
+        "discrimination_a": 1.2,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q65",
+        "section": "Vocabulary",
+        "question": "Which word means 'expressing opinions on subjects one knows little about'?",
+        "options": {
+            "A": "Articulate",
+            "B": "Verbose",
+            "C": "Pontificate",
+            "D": "Elaborate"
+        },
+        "correct": "C",
+        "difficulty_b": -0.5,
+        "discrimination_a": 1.3,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q66",
+        "section": "Vocabulary",
+        "question": "What is the antonym of 'Transparent'?",
+        "options": {
+            "A": "Clear",
+            "B": "Obvious",
+            "C": "Opaque",
+            "D": "Visible"
+        },
+        "correct": "C",
+        "difficulty_b": 0.0,
+        "discrimination_a": 1.4,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q67",
+        "section": "Vocabulary",
+        "question": "Which word means 'relating to the management of a country's economy'?",
+        "options": {
+            "A": "Diplomatic",
+            "B": "Fiscal",
+            "C": "Judicial",
+            "D": "Legislative"
+        },
+        "correct": "B",
+        "difficulty_b": 0.5,
+        "discrimination_a": 1.5,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q68",
+        "section": "Vocabulary",
+        "question": "What does 'Vicarious' mean?",
+        "options": {
+            "A": "Direct experience",
+            "B": "Experienced through another person",
+            "C": "Imaginary only",
+            "D": "Shared equally"
+        },
+        "correct": "B",
+        "difficulty_b": 1.0,
+        "discrimination_a": 1.6,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q69",
+        "section": "Vocabulary",
+        "question": "Which word means 'the tendency to see future events optimistically'?",
+        "options": {
+            "A": "Pragmatism",
+            "B": "Cynicism",
+            "C": "Sanguinity",
+            "D": "Realism"
+        },
+        "correct": "C",
+        "difficulty_b": 1.5,
+        "discrimination_a": 1.8,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q70",
+        "section": "Vocabulary",
+        "question": "What does 'Solipsism' mean?",
+        "options": {
+            "A": "Belief only one's own mind exists",
+            "B": "Study of social systems",
+            "C": "Philosophy of language",
+            "D": "Theory of knowledge"
+        },
+        "correct": "A",
+        "difficulty_b": 2.0,
+        "discrimination_a": 2.0,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q71",
+        "section": "Comprehension",
+        "question": "Read: 'Meena left a high salary job to start a school in her village. Within five years, literacy rates doubled.' What does this show?",
+        "options": {
+            "A": "Money is unimportant",
+            "B": "Purpose driven work creates impact",
+            "C": "Schools are better than offices",
+            "D": "Salary does not matter"
+        },
+        "correct": "B",
+        "difficulty_b": -2.0,
+        "discrimination_a": 0.8,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q72",
+        "section": "Comprehension",
+        "question": "Read: 'The intern spotted a flaw in the product launch plan. Instead of staying quiet, he raised it politely in the meeting.' What quality did he show?",
+        "options": {
+            "A": "Arrogance",
+            "B": "Cowardice",
+            "C": "Professional courage",
+            "D": "Carelessness"
+        },
+        "correct": "C",
+        "difficulty_b": -1.5,
+        "discrimination_a": 1.0,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q73",
+        "section": "Comprehension",
+        "question": "Read: 'Remote work increased productivity for some but caused isolation for others. Outcomes depended on individual work styles.' What does this suggest?",
+        "options": {
+            "A": "Remote work is always better",
+            "B": "Office work is superior",
+            "C": "Impact of remote work varies by individual",
+            "D": "Productivity never changes"
+        },
+        "correct": "C",
+        "difficulty_b": -1.0,
+        "discrimination_a": 1.2,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q74",
+        "section": "Comprehension",
+        "question": "Read: 'Companies that invested in employee wellbeing saw lower attrition and higher output. Those that ignored it struggled to retain talent.' What is the main insight?",
+        "options": {
+            "A": "Wellbeing is a luxury",
+            "B": "Attrition is unavoidable",
+            "C": "Employee wellbeing drives business performance",
+            "D": "Output depends only on technology"
+        },
+        "correct": "C",
+        "difficulty_b": -0.5,
+        "discrimination_a": 1.3,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q75",
+        "section": "Comprehension",
+        "question": "Read: 'The policy reduced short term profits but built long term brand trust. Investors initially resisted but later saw sustained returns.' What does this illustrate?",
+        "options": {
+            "A": "Profit is always priority",
+            "B": "Long term thinking can conflict with short term goals",
+            "C": "Investors are always right",
+            "D": "Brand trust is irrelevant"
+        },
+        "correct": "B",
+        "difficulty_b": 0.0,
+        "discrimination_a": 1.4,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q76",
+        "section": "Comprehension",
+        "question": "Read: 'Confirmation bias leads professionals to seek data supporting existing beliefs while ignoring contradictory evidence.' What is the risk?",
+        "options": {
+            "A": "Too much data",
+            "B": "Flawed decision making due to selective evidence",
+            "C": "Overconfidence in others",
+            "D": "Lack of research skills"
+        },
+        "correct": "B",
+        "difficulty_b": 0.5,
+        "discrimination_a": 1.5,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q77",
+        "section": "Comprehension",
+        "question": "Read: 'In VUCA environments \u2014 volatile, uncertain, complex, ambiguous \u2014 traditional planning fails. Leaders must embrace adaptive strategies.' What is required?",
+        "options": {
+            "A": "Rigid five year plans",
+            "B": "Avoidance of risk",
+            "C": "Adaptive and flexible leadership",
+            "D": "More bureaucracy"
+        },
+        "correct": "C",
+        "difficulty_b": 1.0,
+        "discrimination_a": 1.6,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q78",
+        "section": "Comprehension",
+        "question": "Read: 'Structural unemployment arises not from lack of jobs but from mismatch between skills workers have and skills employers need.' What is the solution implied?",
+        "options": {
+            "A": "Create more jobs",
+            "B": "Reduce wages",
+            "C": "Reskilling and upskilling workers",
+            "D": "Reduce working hours"
+        },
+        "correct": "C",
+        "difficulty_b": 1.5,
+        "discrimination_a": 1.8,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q79",
+        "section": "Comprehension",
+        "question": "Read: 'Organisational ambidexterity \u2014 the ability to simultaneously exploit current capabilities and explore new opportunities \u2014 defines high performing firms.' What does this demand?",
+        "options": {
+            "A": "Focus on one strategy only",
+            "B": "Balancing stability and innovation",
+            "C": "Avoiding new markets",
+            "D": "Prioritising exploration over exploitation"
+        },
+        "correct": "B",
+        "difficulty_b": 2.0,
+        "discrimination_a": 2.0,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q80",
+        "section": "Comprehension",
+        "question": "Read: 'The principal-agent problem emerges when an agent acts in self interest rather than the principal's interest, creating moral hazard.' What does this highlight?",
+        "options": {
+            "A": "Agents are always unethical",
+            "B": "Principals should micromanage",
+            "C": "Incentive misalignment creates governance risk",
+            "D": "Contracts are unnecessary"
+        },
+        "correct": "C",
+        "difficulty_b": 2.5,
+        "discrimination_a": 2.2,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q81",
+        "section": "Grammar",
+        "question": "Choose the correct sentence:",
+        "options": {
+            "A": "I goed to school",
+            "B": "I went to school",
+            "C": "I go to school yesterday",
+            "D": "I goes to school"
+        },
+        "correct": "B",
+        "difficulty_b": -2.0,
+        "discrimination_a": 0.8,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q82",
+        "section": "Grammar",
+        "question": "Fill in the blank: 'She is good ___ mathematics.'",
+        "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at",
+            "D": "for"
+        },
+        "correct": "C",
+        "difficulty_b": -1.5,
+        "discrimination_a": 1.0,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q83",
+        "section": "Grammar",
+        "question": "Choose the correct form: 'By the time he arrived, she ___ already left.'",
+        "options": {
+            "A": "has",
+            "B": "have",
+            "C": "had",
+            "D": "was"
+        },
+        "correct": "C",
+        "difficulty_b": -1.0,
+        "discrimination_a": 1.2,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q84",
+        "section": "Grammar",
+        "question": "Fill in: 'He suggested ___ the meeting to next week.'",
+        "options": {
+            "A": "postpone",
+            "B": "to postpone",
+            "C": "postponing",
+            "D": "postponed"
+        },
+        "correct": "C",
+        "difficulty_b": -0.5,
+        "discrimination_a": 1.3,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q85",
+        "section": "Grammar",
+        "question": "Choose the correctly punctuated sentence:",
+        "options": {
+            "A": "However he tried he could not succeed",
+            "B": "However, he tried he could not succeed",
+            "C": "However he tried, he could not succeed",
+            "D": "However, he tried, he could not succeed"
+        },
+        "correct": "D",
+        "difficulty_b": 0.0,
+        "discrimination_a": 1.4,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q86",
+        "section": "Grammar",
+        "question": "Fill in: 'No sooner ___ he spoken than the bell rang.'",
+        "options": {
+            "A": "did",
+            "B": "had",
+            "C": "has",
+            "D": "was"
+        },
+        "correct": "B",
+        "difficulty_b": 0.5,
+        "discrimination_a": 1.5,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q87",
+        "section": "Grammar",
+        "question": "Choose the correct reported speech: He said 'I will complete the task tomorrow.'",
+        "options": {
+            "A": "He said he will complete the task tomorrow",
+            "B": "He said he would complete the task the next day",
+            "C": "He said he completes the task tomorrow",
+            "D": "He said he completed the task tomorrow"
+        },
+        "correct": "B",
+        "difficulty_b": 1.0,
+        "discrimination_a": 1.6,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q88",
+        "section": "Grammar",
+        "question": "Fill in: 'The data ___ been analysed and results ___ being compiled.'",
+        "options": {
+            "A": "has, is",
+            "B": "have, are",
+            "C": "has, are",
+            "D": "have, is"
+        },
+        "correct": "B",
+        "difficulty_b": 1.5,
+        "discrimination_a": 1.8,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q89",
+        "section": "Grammar",
+        "question": "Choose the correct sentence:",
+        "options": {
+            "A": "The criteria is met",
+            "B": "The criteria are met",
+            "C": "The criterias are met",
+            "D": "The criterias is met"
+        },
+        "correct": "B",
+        "difficulty_b": 2.0,
+        "discrimination_a": 2.0,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q90",
+        "section": "Grammar",
+        "question": "Fill in: 'It is essential that the board ___ the implications before ratifying the amendment.'",
+        "options": {
+            "A": "considers",
+            "B": "considered",
+            "C": "consider",
+            "D": "considering"
+        },
+        "correct": "C",
+        "difficulty_b": 2.5,
+        "discrimination_a": 2.2,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q91",
+        "section": "Critical Thinking",
+        "question": "You have two job offers \u2014 one in your city with average pay, another abroad with high pay but away from family. What should guide your decision?",
+        "options": {
+            "A": "Always choose higher pay",
+            "B": "Always stay near family",
+            "C": "Weigh personal values, career goals and life priorities",
+            "D": "Ask friends to decide"
+        },
+        "correct": "C",
+        "difficulty_b": -1.5,
+        "discrimination_a": 1.0,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q92",
+        "section": "Critical Thinking",
+        "question": "Your manager gives you negative feedback publicly. The most professional response is:",
+        "options": {
+            "A": "Argue back immediately",
+            "B": "Resign the next day",
+            "C": "Accept calmly and discuss privately later",
+            "D": "Ignore it completely"
+        },
+        "correct": "C",
+        "difficulty_b": -1.0,
+        "discrimination_a": 1.2,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q93",
+        "section": "Critical Thinking",
+        "question": "You notice a process in your company is inefficient but no one has raised it. You should:",
+        "options": {
+            "A": "Stay silent to avoid conflict",
+            "B": "Document and propose an improvement",
+            "C": "Complain to colleagues",
+            "D": "Wait for someone else to fix it"
+        },
+        "correct": "B",
+        "difficulty_b": -0.5,
+        "discrimination_a": 1.3,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q94",
+        "section": "Critical Thinking",
+        "question": "A client demands a feature that is technically possible but will harm other users. You should:",
+        "options": {
+            "A": "Build it immediately",
+            "B": "Refuse without explanation",
+            "C": "Explain trade offs and propose an alternative solution",
+            "D": "Escalate without attempting resolution"
+        },
+        "correct": "C",
+        "difficulty_b": 0.0,
+        "discrimination_a": 1.4,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q95",
+        "section": "Critical Thinking",
+        "question": "Two team members have a personal conflict affecting work. As their peer, you should:",
+        "options": {
+            "A": "Take sides with the stronger one",
+            "B": "Ignore it as not your problem",
+            "C": "Encourage them to resolve it and involve a manager if needed",
+            "D": "Report both to HR immediately"
+        },
+        "correct": "C",
+        "difficulty_b": 0.5,
+        "discrimination_a": 1.5,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q96",
+        "section": "Critical Thinking",
+        "question": "You are asked to lead a project outside your expertise. The best approach is:",
+        "options": {
+            "A": "Decline immediately",
+            "B": "Accept and rely entirely on the team",
+            "C": "Accept, identify knowledge gaps and learn quickly",
+            "D": "Pretend you are already an expert"
+        },
+        "correct": "C",
+        "difficulty_b": 1.0,
+        "discrimination_a": 1.6,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q97",
+        "section": "Critical Thinking",
+        "question": "Your organisation's data shows a strategy is failing but leadership is emotionally invested in it. The most effective action is:",
+        "options": {
+            "A": "Agree with leadership to avoid conflict",
+            "B": "Present data clearly and propose alternatives respectfully",
+            "C": "Leak findings externally",
+            "D": "Wait until it completely fails"
+        },
+        "correct": "B",
+        "difficulty_b": 1.5,
+        "discrimination_a": 1.8,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q98",
+        "section": "Critical Thinking",
+        "question": "A policy benefits the majority but significantly harms a minority group. Ethically, the decision maker should:",
+        "options": {
+            "A": "Always follow majority interest",
+            "B": "Ignore the minority concern",
+            "C": "Assess harm, seek alternatives and protect minority rights where possible",
+            "D": "Delay the decision indefinitely"
+        },
+        "correct": "C",
+        "difficulty_b": 2.0,
+        "discrimination_a": 2.0,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q99",
+        "section": "Critical Thinking",
+        "question": "A disruptive innovation threatens your company's core business. The strategically sound response is:",
+        "options": {
+            "A": "Ignore it and protect current revenue",
+            "B": "Immediately abandon existing business",
+            "C": "Invest in parallel in the disruptive model while sustaining current operations",
+            "D": "Sue the disruptors"
+        },
+        "correct": "C",
+        "difficulty_b": 2.0,
+        "discrimination_a": 2.0,
+        "guessing_c": 0.25
+    },
+    {
+        "id": "Q100",
+        "section": "Critical Thinking",
+        "question": "In systems thinking, addressing a symptom without understanding the root cause leads to:",
+        "options": {
+            "A": "Permanent resolution",
+            "B": "Problem shifting or recurrence",
+            "C": "Improved efficiency",
+            "D": "Stakeholder satisfaction"
+        },
+        "correct": "B",
+        "difficulty_b": 2.5,
+        "discrimination_a": 2.2,
+        "guessing_c": 0.25
+    }
+]

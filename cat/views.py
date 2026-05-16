@@ -3,60 +3,62 @@ from rest_framework.response import Response
 from rest_framework import status
 from .models import Item
 from .serializers import ItemSerializer
-from .engine import next_item, mle
+from .engine import next_item, estimate_theta
+
+MAX_ITEMS = 10
+
+
+def get_bank():
+    return {str(i.item_id): {'a': i.a, 'b': i.b, 'c': i.c} for i in Item.objects.all()}
 
 
 @api_view(['GET', 'POST'])
 def test_api(request):
     s = request.session
-
-    # 1. Initialize Assessment Session
     if 'res' not in s:
-        s['res'], s['theta'], s['count'] = {}, 0.0, 0
-        s.modified = True
+        s['res'], s['theta'], s['count'], s['done'], s['current_q'] = {
+        }, 0.0, 0, False, None
 
-    # 2. Map Database to Engine Bank Format
-    items = Item.objects.all()
-    BANK = {i.item_id: {'a': i.a, 'b': i.b, 'c': i.c} for i in items}
+    if s['done']:
+        return Response({"status": "completed", "final_score": round(s['theta'], 2)})
 
-    # 3. Handle Answer Submission (POST)
+    BANK = get_bank()
+
     if request.method == "POST":
-        q_id = request.data.get('q_id')
-        ans = request.data.get('ans')  # Expects 0 or 1
+        q_id = str(request.data.get('q_id', '')).strip()
+        ans = str(request.data.get('ans', '')).strip().upper()
 
-        if q_id in BANK and ans in [0, 1, "0", "1"]:
-            s['res'][q_id] = int(ans)
-            s['theta'] = mle(s['res'], BANK)  # Update Ability Score
+        if not q_id or not ans:
+            return Response({"error": "Fields required"}, status=status.HTTP_400_BAD_REQUEST)
+
+        if s['current_q'] and q_id != s['current_q']:
+            return Response({"error": f"Answer active question: {s['current_q']}"}, status=status.HTTP_400_BAD_REQUEST)
+
+        try:
+            item = Item.objects.get(item_id=q_id)
+            s['res'][q_id] = 1 if ans == item.correct_option.upper() else 0
+            s['theta'] = estimate_theta(s['res'], BANK)
             s['count'] += 1
             s.modified = True
-            return Response({"message": "Answer saved", "progress": s['count']})
-        return Response({"error": "Invalid Input"}, status=status.HTTP_400_BAD_REQUEST)
+        except Item.DoesNotExist:
+            return Response({"error": "Invalid q_id"}, status=status.HTTP_400_BAD_REQUEST)
 
-    # 4. Finish Assessment after 10 questions
-    if s['count'] >= 10:
-        return Response({
-            "status": "completed",
-            "final_ability_score": s['theta'],
-            "total_items": s['count']
-        })
+    if s['count'] >= MAX_ITEMS:
+        s['done'] = True
+        s.modified = True
+        return Response({"status": "completed", "final_score": round(s['theta'], 2), "total_items": MAX_ITEMS})
 
-    # 5. Fetch Next Adaptive Question (GET)
-    next_id = next_item(s['theta'], BANK, list(s['res'].keys()))
+    next_id = s['current_q'] if request.method == "GET" and s['current_q'] else next_item(
+        s['theta'], BANK, list(s['res'].keys()))
     if not next_id:
-        return Response({"error": "Bank exhausted"}, status=status.HTTP_404_NOT_FOUND)
+        s['done'], s.modified = True, True
+        return Response({"status": "completed", "final_score": round(s['theta'], 2)})
 
-    item_obj = Item.objects.get(item_id=next_id)
-    serializer = ItemSerializer(item_obj)  # Use serializer for clean JSON
-
-    return Response({
-        "status": "ongoing",
-        "progress": s['count'],
-        # Returns {'item_id': 'q45', 'question_text': '...'}
-        "question": serializer.data
-    })
+    s['current_q'], s.modified = next_id, True
+    return Response({"status": "ongoing", "progress": s['count'] + 1, "question": ItemSerializer(Item.objects.get(item_id=next_id)).data})
 
 
-@api_view(['GET'])
+@api_view(['POST'])
 def reset_test(request):
     request.session.flush()
-    return Response({"message": "Assessment Reset Successfully"})
+    return Response({"status": "reset"})
